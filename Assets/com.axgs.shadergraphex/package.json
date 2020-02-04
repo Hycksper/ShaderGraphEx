@@ -1,15 +1,11 @@
 {
     "name": "com.axgs.shadergraphex",
-    "displayName": "ShaderGraphEx",
     "version": "0.0.1",
+    "displayName": "ShaderGraphEx",
     "unity": "2019.3",
     "description": "Shader graph extention for Unity",
     "dependencies": {
         "com.unity.render-pipelines.universal": "7.1.7",
         "com.unity.shadergraph": "7.1.8"
-    },
-    "keywords": [
-        "unity",
-        "shader"
-    ]
+    }
 }
