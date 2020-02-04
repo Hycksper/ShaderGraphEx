@@ -23,7 +23,7 @@ namespace UnityEditor.Rendering.Universal
             displayName = "Universal Forward",
             referenceName = "SHADERPASS_FORWARD",
             lightMode = "UniversalForward",
-            passInclude = "Packages/ShaderGraphEx/Shaders/PBRForwardPass.hlsl",
+            passInclude = "Packages/com.axgs.shadergraphex/Shaders/PBRForwardPass.hlsl",
             varyingsInclude = "Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/Includes/Varyings.hlsl",
             useInPreview = true,
 
@@ -101,7 +101,7 @@ namespace UnityEditor.Rendering.Universal
             displayName = "DepthOnly",
             referenceName = "SHADERPASS_DEPTHONLY",
             lightMode = "DepthOnly",
-            passInclude = "Packages/ShaderGraphEx/Shaders/DepthOnlyPass.hlsl",
+            passInclude = "Packages/com.axgs.shadergraphex/Shaders/DepthOnlyPass.hlsl",
             varyingsInclude = "Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/Includes/Varyings.hlsl",
             useInPreview = true,
 
@@ -145,7 +145,7 @@ namespace UnityEditor.Rendering.Universal
             displayName = "ShadowCaster",
             referenceName = "SHADERPASS_SHADOWCASTER",
             lightMode = "ShadowCaster",
-            passInclude = "Packages/ShaderGraphEx/Shaders/ShadowCasterPass.hlsl",
+            passInclude = "Packages/com.axgs.shadergraphex/Shaders/ShadowCasterPass.hlsl",
             varyingsInclude = "Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/Includes/Varyings.hlsl",
             
             // Port mask
@@ -194,7 +194,7 @@ namespace UnityEditor.Rendering.Universal
             displayName = "Meta",
             referenceName = "SHADERPASS_META",
             lightMode = "Meta",
-            passInclude = "Packages/ShaderGraphEx/Shaders/LightingMetaPass.hlsl",
+            passInclude = "Packages/com.axgs.shadergraphex/Shaders/LightingMetaPass.hlsl",
             varyingsInclude = "Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/Includes/Varyings.hlsl",
 
             // Port mask
@@ -249,7 +249,7 @@ namespace UnityEditor.Rendering.Universal
             // Definition
             referenceName = "SHADERPASS_2D",
             lightMode = "Universal2D",
-            passInclude = "Packages/ShaderGraphEx/Shaders/PBR2DPass.hlsl",
+            passInclude = "Packages/com.axgs.shadergraphex/Shaders/PBR2DPass.hlsl",
             varyingsInclude = "Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/Includes/Varyings.hlsl",
 
             // Port mask
