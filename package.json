@@ -1,7 +1,7 @@
 {
     "name": "com.axgs.shadergraphex",
-    "version": "0.0.1",
-    "displayName": "ShaderGraphEx",
+    "version": "0.0.2",
+    "displayName": "Shader Graph Ex",
     "unity": "2019.3",
     "description": "Shader graph extention for Unity",
     "dependencies": {
